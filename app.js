@@ -18,8 +18,6 @@ let input = $('#input');
 let history = $('#history');
 let count = 0
 let command_history = [""]
-
-
 const prompt = `<span class="user">you@kyrstr-website</span><span class="symbols">:</span><span class="directory">~</span><span class="symbols">$</span>&nbsp;`;
 const files = {
     'about_me.txt': `Hey!, I'm Kayra and i'm 16. I'm a simple high school student. I try to improve myself.<br><br>Isn't that enough? <br> type 'contact' to get in touch with me or to see my other websites`,
@@ -130,3 +128,4 @@ input.keydown(function (event) {
     }
     $(".terminal").scrollTop($(".terminal")[0].scrollHeight);
 });
+
